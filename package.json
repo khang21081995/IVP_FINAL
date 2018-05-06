@@ -1,0 +1,11 @@
+{
+  "name": "Final_Project_Text_Detection",
+  "version": "0.0.1",
+  "dependencies": {
+    "install": "^0.11.0",
+    "node-tesseract": "^0.2.7",
+    "npm": "^6.0.0",
+    "opencv4nodejs": "^4.4.0",
+    "tesseract.js": "^1.0.10"
+  }
+}
