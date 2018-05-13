@@ -2,10 +2,18 @@
   "name": "Final_Project_Text_Detection",
   "version": "0.0.1",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
     "install": "^0.11.0",
     "node-tesseract": "^0.2.7",
     "npm": "^6.0.0",
     "opencv4nodejs": "^4.4.0",
-    "tesseract.js": "^1.0.10"
+    "swagger-jsdoc": "^1.9.7",
+    "tesseract.js": "^1.0.10",
+    "winston": "^2.4.2",
+    "winston-daily-rotate-file": "^3.1.4"
   }
 }

@@ -1,6 +1,8 @@
 var Tesseract = require('tesseract.js');
 var cv = require('opencv4nodejs');
-var myImage = "./image2.png";
+
+
+var myImage = "./abc.png";
 
 
 var img = cv.imread(myImage)
@@ -12,12 +14,14 @@ img = img.dilate(kernel)
 img = img.erode(kernel)
 cv.imwrite(__dirname + "/image_after_filter_noise.png", img)
 
-// img = img.adaptiveThreshold(255, cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.THRESH_BINARY, 31, 2)
+img = img.adaptiveThreshold(255, cv.ADAPTIVE_THRESH_MEAN_C, cv.THRESH_BINARY, 11, 3);
 
 
 cv.imwrite(__dirname + "/image_final.png", img)
 
-Tesseract.recognize("./image_final.png")
+Tesseract.recognize("./image_final.png", {
+    lang: 'vie'
+})
     .progress(function (p) {
         console.log('progress', p)
     }).catch(err => console.log(err))

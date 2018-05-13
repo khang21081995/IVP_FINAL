@@ -1,0 +1,59 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/khangpq/Desktop/Final_Project_Text_Detection/logs/.audit.json",
+    "files": [
+        {
+            "date": 1526208994245,
+            "name": "/Users/khangpq/Desktop/Final_Project_Text_Detection/logs/push-notice-.yyyy-05-Su.5/13/2018og",
+            "hash": "3154fcd59d8693052605dc637448138c"
+        },
+        {
+            "date": 1526209068876,
+            "name": "/Users/khangpq/Desktop/Final_Project_Text_Detection/logs/push-notice-.yyyy-05-Su.5/13/2018og",
+            "hash": "27e537d973f563fdbcce177e352abc8c"
+        },
+        {
+            "date": 1526209212564,
+            "name": "/Users/khangpq/Desktop/Final_Project_Text_Detection/logs/push-notice-.yyyy-05-Su.5/13/2018og",
+            "hash": "5e31820abba5b78f79089ca52bd1f353"
+        },
+        {
+            "date": 1526209335771,
+            "name": "/Users/khangpq/Desktop/Final_Project_Text_Detection/logs/push-notice-.yyyy-05-Su.5/13/2018og",
+            "hash": "e3ee64a82106d1cb0fa5532cd96350a8"
+        },
+        {
+            "date": 1526235016565,
+            "name": "/Users/khangpq/Desktop/Final_Project_Text_Detection/logs/push-notice-.yyyy-05-Mo.5/14/2018og",
+            "hash": "1e8beaf3eb31ea496e4e4a2e5463f342"
+        },
+        {
+            "date": 1526235177818,
+            "name": "/Users/khangpq/Desktop/Final_Project_Text_Detection/logs/push-notice-.yyyy-05-Mo.5/14/2018og",
+            "hash": "7bb4f02635870a13ecda41e21874f9bc"
+        },
+        {
+            "date": 1526235455790,
+            "name": "/Users/khangpq/Desktop/Final_Project_Text_Detection/logs/push-notice-.yyyy-05-Mo.5/14/2018og",
+            "hash": "b14d75ee51562d9ffb219418926bdcad"
+        },
+        {
+            "date": 1526235723093,
+            "name": "/Users/khangpq/Desktop/Final_Project_Text_Detection/logs/push-notice-.yyyy-05-Mo.5/14/2018og",
+            "hash": "9127226789be5719eda5cb384ef0fe31"
+        },
+        {
+            "date": 1526235961015,
+            "name": "/Users/khangpq/Desktop/Final_Project_Text_Detection/logs/push-notice-.yyyy-05-Mo.5/14/2018og",
+            "hash": "6e156de6d5bae6ada709bd29e93fdf89"
+        },
+        {
+            "date": 1526236108762,
+            "name": "/Users/khangpq/Desktop/Final_Project_Text_Detection/logs/push-notice-.yyyy-05-Mo.5/14/2018og",
+            "hash": "34dcbe1cf9e398962390466d6f342edc"
+        }
+    ]
+}
