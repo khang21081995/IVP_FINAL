@@ -23,16 +23,13 @@ var removeFile = function (filePath) {
 
 module.exports = {
     textDetection: function (req, res) {
-
         var dateNow = Date.now();
-
-
         var imageName = req.sessionID + dateNow;
         var imageBase64 = req.body.image_base64;
         var language = req.body.language || 'vie';
         var tmpDir = __dirname + "/tmp";
         if (imageBase64 && imageBase64.includes('data:image')) {
-            var base64Data = imageBase64.replace(/^data:image\/png;base64,/, "");
+            var base64Data = imageBase64.replace(/^data:image\/\w+;base64,/, "");
             fs.writeFile(tmpDir + "/" + imageName + ".png", base64Data, 'base64', function (err) {
                 if (err) {
                     res.status(404).json({message: "Fail to create new image!"});
