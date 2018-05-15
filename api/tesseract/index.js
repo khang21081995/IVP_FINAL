@@ -19,7 +19,7 @@ var router = express.Router();
  *         required: true
  *         schema:
  *           type: object
- *           example: {"image_base64":"hello"}
+ *           example: {"image_base64":"hello","language":"vie"}
  *     responses:
  *       200:
  *         description: thành công.
