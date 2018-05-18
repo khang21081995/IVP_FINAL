@@ -36,9 +36,9 @@ module.exports = {
                 } else {
                     var img = cv.imread(tmpDir + "/" + imageName + ".png");
                     img = img.bgrToGray();
-                    var kernel = new cv.Mat(1, 1, 1, 1);
-                    img = img.dilate(kernel)
+                    var kernel = new cv.Mat(2, 2, 1, 1);
                     img = img.erode(kernel)
+                    img = img.dilate(kernel)
                     cv.imwrite(tmpDir + "/" + imageName + "_after_filter_noise.png", img);
                     removeFile(tmpDir + "/" + imageName + ".png");
                     Tesseract.recognize(tmpDir + "/" + imageName + "_after_filter_noise.png", {

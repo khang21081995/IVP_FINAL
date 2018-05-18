@@ -10,11 +10,12 @@ var img = cv.imread(myImage)
 img = img.bgrToGray();
 
 var kernel = new cv.Mat(1, 1, 1, 1);
-img = img.dilate(kernel)
 img = img.erode(kernel)
+img = img.dilate(kernel)
+
 cv.imwrite(__dirname + "/image_after_filter_noise.png", img)
 
-img = img.adaptiveThreshold(255, cv.ADAPTIVE_THRESH_MEAN_C, cv.THRESH_BINARY, 11, 3);
+// img = img.adaptiveThreshold(255, cv.ADAPTIVE_THRESH_MEAN_C, cv.THRESH_BINARY, 11, 3);
 
 
 cv.imwrite(__dirname + "/image_final.png", img)
